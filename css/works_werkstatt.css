@@ -2,7 +2,7 @@
 #style_guide {
     position: relative;
     width: 100%;
-    height: 360vh;
+    height: 380vh;
     background: #000;
     overflow: hidden;
 }
@@ -56,21 +56,29 @@
 #style_guide > .description {
     position: relative;
 }
-#style_guide > .description > .text {
+#style_guide > .description > .style1 {
     position: absolute;
+    width: 52.0833vw;
+    left: 30.4166vw;
+    top: 108.8297vh;
+}
+#style_guide > .description > .style2 {
+    position: absolute;
+    width: 52.0833vw;
+    top: 162vh;
 }
 #style_guide > .description > .after {
     position: absolute;
     width: 45.8333vw;
     left: 36.875vw;
-    top: 105vh;
+    top: 215vh;
 }
 #style_guide > .description > .before {
     position: absolute;
     width: 29.0625vw;
     left: 3vw;
-    top: 160vh;
-    opacity: 0.5;
+    top: 265vh;
+    opacity: 0.7;
 }
 #style_guide > .description > h1 {
     position: absolute;
@@ -89,6 +97,7 @@
     font-size: 1.25vw;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
 /* arrow */
 #style_guide #arrow > img {
     position: absolute;
@@ -133,15 +142,12 @@
     #style_guide > .main > .text {
         /* position: static; */
         left: 12vw;
-        top: 40vh;
+        top: 25vh;
     }
     #style_guide > .main > .text > h1 {
         font-size: 16px;
     }
-    #style_guide > .main > .text > .first,
-    #style_guide > .main > .text > .second {
-        font-size: 12px;
-    }
+    
     #style_guide > .main > .text > .btn {
         height: 25px;
         line-height: 25px;
@@ -162,15 +168,15 @@
     #style_guide > .description > .after {
         width: 100vw;
         left: 0vw;
-        top: 53vh;
+        top: 65vh;
     }
     #style_guide > .description > .before {
         display: none;
         left: 3vw;
-        top: 64vh;
+        top: 184vh;
     }
     #style_guide {
-        height: 265vh;
+        height: 175vh;
         margin-top: 50px;
     }
     #style_guide #arrow {
@@ -180,13 +186,13 @@
         left: 10px;
     }
     #style_guide > .description > h1 {
-        left: 50vw;
-        top: 19vh;
+        left: 12vw;
+        top: 45vh;
         font-size: 14px;
     }
     #style_guide > .description > p {
-        left: 50vw;
-        top: 25vh;
+        left: 12vw;
+        top: 50vh;
     }
 }
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -207,14 +213,14 @@
     }
     #style_guide > .description > .after {
         left: 36.875vw;
-        top: 65vh;
+        top: 116vh;
     }
     #style_guide > .description > .before {
         left: 3vw;
-        top: 88vh;
+        top: 140vh;
     }
     #style_guide {
-        height: 200vh;
+        height: 205vh;
     }
     #style_guide > .description > h1 {
         left: 2vw;
@@ -243,14 +249,14 @@
     }
     #style_guide > .description > .after {
         left: 36.875vw;
-        top: 70vh;
+        top: 132vh;
     }
     #style_guide > .description > .before {
         left: 3vw;
-        top: 98vh;
+        top: 165vh;
     }
     #style_guide {
-        height: 230vh;
+        height: 240vh;
     }
     #style_guide > .description > h1 {
         left: 2vw;
