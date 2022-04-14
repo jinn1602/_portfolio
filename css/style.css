@@ -64,7 +64,7 @@
 #about > .txt {
     width: 100%;
     height: 0;
-    padding-bottom: 17%;
+    padding-bottom: 30%;
 }
 #about > .txt > .typing-txt {
     display: none;
@@ -227,16 +227,6 @@
 
 
 /* 미디어쿼리 */
-@media screen and (max-width: 480px) {
-    #about {
-        width: 100vw;
-        height: 0;
-        padding-bottom: 300%;
-    }
-    #works {
-        height: 10vh;
-    }
-}
 @media screen and (max-width: 767px) {
     #left_header > #gnb > li:hover > a {
         border-bottom: 1px solid #888;
@@ -247,7 +237,7 @@
     #about {
         width: 100vw;
         height: 0;
-        padding-bottom: 90%;
+        padding-bottom: 170%;
     }
     #chart li span {
         left: 50%; top: 45%;
@@ -266,7 +256,7 @@
         margin-bottom: 30px;
     }
     #works {
-        height: 350vh;
+        height: 340vh;
     }
     #works #arrow > img {
         left: 10px;
@@ -283,6 +273,9 @@
     #chart .col-sm-2 {
         padding-left: 0;
     }
+    #about {
+        padding-bottom: 220%;
+    }
     #about > .works > marquee {
         margin-top: 30px;
         width: 100%;
@@ -295,7 +288,7 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 52%;
+        padding-bottom: 70%;
     }
     #works span,
     #works h1 {
@@ -313,7 +306,7 @@
         line-height: 40px;
     }
     #works {
-        height: 130vh;
+        height: 150vh;
     }
     #works .col-lg-12 {
         height: 50px;
@@ -323,7 +316,7 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 48%;
+        padding-bottom: 70%;
     }
     #works span,
     #works h1 {
@@ -333,7 +326,7 @@
         width: 80%;
     }
     #works {
-        height: 150vh;
+        height: 190vh;
     }
     #works .col-lg-12 {
         height: 70px;
@@ -343,7 +336,7 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 41%;
+        padding-bottom: 50%;
     }
     #works span,
     #works h1 {
