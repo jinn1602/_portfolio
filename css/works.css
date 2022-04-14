@@ -89,7 +89,6 @@
     font-size: 1.25vw;
     font-family: 'Noto Sans KR', sans-serif;
 }
-
 /* arrow */
 #style_guide #arrow > img {
     position: absolute;
@@ -126,6 +125,10 @@
 
 
 /* 미디어쿼리 */
+@media screen and (max-width: 480px) {
+
+}
+
 @media screen and (max-width: 767px) {
     #style_guide > .main > img {
         left: 28vw;

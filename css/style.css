@@ -64,7 +64,7 @@
 #about > .txt {
     width: 100%;
     height: 0;
-    padding-bottom: 30%;
+    padding-bottom: 17%;
 }
 #about > .txt > .typing-txt {
     display: none;
@@ -227,7 +227,29 @@
 
 
 /* 미디어쿼리 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+    #about {
+        width: 100vw;
+        height: 0;
+        padding-bottom: 138%;
+    }
+    #about > .works > marquee {
+        width: 100%;
+    }
+    #works {
+        height: 280vh;
+    }
+    #chart {
+        margin-bottom: 0;
+    }
+    #arrow {
+        display: none;
+    }
+    #works .col-lg-12 {
+        height: 10px;
+    }
+}
+@media screen and (min-width:700px) and (max-width: 767px) {
     #left_header > #gnb > li:hover > a {
         border-bottom: 1px solid #888;
     }
@@ -237,7 +259,7 @@
     #about {
         width: 100vw;
         height: 0;
-        padding-bottom: 170%;
+        padding-bottom: 90%;
     }
     #chart li span {
         left: 50%; top: 45%;
@@ -256,7 +278,7 @@
         margin-bottom: 30px;
     }
     #works {
-        height: 340vh;
+        height: 350vh;
     }
     #works #arrow > img {
         left: 10px;
@@ -273,9 +295,6 @@
     #chart .col-sm-2 {
         padding-left: 0;
     }
-    #about {
-        padding-bottom: 220%;
-    }
     #about > .works > marquee {
         margin-top: 30px;
         width: 100%;
@@ -288,7 +307,7 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 70%;
+        padding-bottom: 52%;
     }
     #works span,
     #works h1 {
@@ -306,7 +325,7 @@
         line-height: 40px;
     }
     #works {
-        height: 150vh;
+        height: 130vh;
     }
     #works .col-lg-12 {
         height: 50px;
@@ -316,7 +335,7 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 70%;
+        padding-bottom: 48%;
     }
     #works span,
     #works h1 {
@@ -326,7 +345,7 @@
         width: 80%;
     }
     #works {
-        height: 190vh;
+        height: 150vh;
     }
     #works .col-lg-12 {
         height: 70px;
@@ -336,13 +355,13 @@
     #about {
         width: 84.375vw;
         height: 0;
-        padding-bottom: 50%;
+        padding-bottom: 41%;
     }
     #works span,
     #works h1 {
         font-size: 24px;
     }
     #works {
-        height: 170vh;
+        height: 200vh;
     }
 }

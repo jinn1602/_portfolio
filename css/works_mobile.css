@@ -271,5 +271,7 @@
     }
 }
 @media screen and (min-width:1200px) and (max-width:1920px) {
-    
+    #style_guide {
+    }
+    .popup{display:none!important;}
 }
